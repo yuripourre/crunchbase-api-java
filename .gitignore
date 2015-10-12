@@ -1,0 +1,15 @@
+# Pre-Compiled Files #
+*.class
+/bin
+
+# Text Files #
+*.csv
+key.txt
+
+# Eclipse Files #
+.project
+.classpath
+
+
+# API KEY File #
+/src/main/java/secret/*
