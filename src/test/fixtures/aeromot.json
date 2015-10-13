@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "version": 3,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "185a6bc81368f075a3355a9276ab16cf",
+    "properties": {
+      "permalink": "aeromot",
+      "api_path": "organizations/aeromot",
+      "web_path": "organization/aeromot",
+      "name": "Aeromot",
+      "also_known_as": null,
+      "short_description": "Aeromot Aeronaves e Motores S.A. sells and services aeronautical products.",
+      "description": "Aeromot Aeronaves e Motores S.A. sells and services aeronautical products. It maintains, recovers, and modifies aircraft, parts, and accessories of aeronautical equipments. Aeromot Aeronaves e Motores S.A. was founded in 1967 and is based in Porto Alegre, Brazil.",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": null,
+      "role_group": null,
+      "role_school": null,
+      "founded_on": "1967-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": null,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 243000,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.aeromot.com.br/",
+      "created_at": 1399108387,
+      "updated_at": 1432085527
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "image",
+          "uuid": "89b29384ba6e26f4b532303688748b5c",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1399108120/oaqgfij65suivz2nopkc.png",
+            "content_type": "png",
+            "height": null,
+            "width": null,
+            "filesize": null,
+            "created_at": 1399108116,
+            "updated_at": 1399108116
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/current_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/investors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "936db37a83a95dff7be5dcc7e1b54c93",
+            "properties": {
+              "permalink": "crp-companhia-de-participacoes",
+              "api_path": "organizations/crp-companhia-de-participacoes",
+              "web_path": "organization/crp-companhia-de-participacoes",
+              "name": "CRP Companhia de Participações",
+              "also_known_as": null,
+              "short_description": "CRP Companhia de Participações is a private equity and venture capital firm specializing in seed, start-ups, early stage, PIPES, industry",
+              "description": "CRP Companhia de Participações is a private equity and venture capital firm specializing in seed, start-ups, early stage, PIPES, industry consolidation, growth capital and mezzanine financing in emerging companies. It invests across a wide range of sectors, specially information technology, biotechnology, and Internet. The firm prefers to invest in Brazil with a focus on state of Rio Grande do Sul, and the southern and southeastern regions of Brazil. It typically invests between $1.4 million and $35.3 million in its portfolio companies with enterprise values upto $70.68 million. The firm prefers to invest in companies with a sales value between R$3 million ($1.65 million) and R$150 million ($82.32 million). The firm typically prefers to hold a minority stake in its portfolio companies. It seeks to exit its investments between four to eight years. The firm also offers financial services with a focus on fund raising, mergers and acquisitions, and corporate restructuring for both its portfolio companies and third party businesses. CRP Companhia de Participações was founded on December 22, 1981 and is based in Porto Alegre, Brazil with an additional office in Florianopolis, Brazil.",
+              "primary_role": "investor",
+              "role_company": null,
+              "role_investor": true,
+              "role_group": null,
+              "role_school": null,
+              "founded_on": "1981-01-01",
+              "founded_on_trust_code": 4,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": 0,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 34,
+              "homepage_url": "http://www.crp.com.br",
+              "created_at": 1389624761,
+              "updated_at": 1432081010
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/owned_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/sub_organizations",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "offices": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "uuid": "c6969079caa0927e3675e5241702c81b",
+            "properties": {
+              "name": "Main Office",
+              "street_1": "Av. Sertório, 1988 Floresta",
+              "street_2": null,
+              "postal_code": null,
+              "city": "Porto Alegre",
+              "city_web_path": "location/porto-alegre/7acd721543e16128e93b52abf98dc963",
+              "region": null,
+              "region_code2": "23",
+              "region_web_path": "",
+              "country": "Brazil",
+              "country_code2": "BR",
+              "country_code3": "BRA",
+              "country_web_path": "",
+              "latitude": null,
+              "longitude": null,
+              "created_at": 1399108186,
+              "updated_at": 1406899986
+            }
+          }
+        ]
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "c6969079caa0927e3675e5241702c81b",
+          "properties": {
+            "name": "Main Office",
+            "street_1": "Av. Sertório, 1988 Floresta",
+            "street_2": null,
+            "postal_code": null,
+            "city": "Porto Alegre",
+            "city_web_path": "location/porto-alegre/7acd721543e16128e93b52abf98dc963",
+            "region": null,
+            "region_code2": "23",
+            "region_web_path": "",
+            "country": "Brazil",
+            "country_code2": "BR",
+            "country_code3": "BRA",
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1399108186,
+            "updated_at": 1406899986
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "categories": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Market",
+            "uuid": "8a20023f3e3220bbb6abe824a0386367",
+            "properties": {
+              "name": "Aerospace",
+              "web_path": "category/aerospace/8a20023f3e3220bbb6abe824a0386367",
+              "created_at": 1397980726,
+              "updated_at": 1444210228
+            }
+          },
+          {
+            "type": "Market",
+            "uuid": "a477d733677063f68b379444379e3186",
+            "properties": {
+              "name": "Defense",
+              "web_path": "category/defense/a477d733677063f68b379444379e3186",
+              "created_at": 1397980727,
+              "updated_at": 1443636011
+            }
+          },
+          {
+            "type": "Market",
+            "uuid": "d237b69050a31326264a134e13d66c31",
+            "properties": {
+              "name": "Services",
+              "web_path": "category/services/d237b69050a31326264a134e13d66c31",
+              "created_at": 1397980726,
+              "updated_at": 1444466973
+            }
+          }
+        ]
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "memberships": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/memberships",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "095f50e9e2c806d6a873a9f299c4b1d1",
+            "properties": {
+              "permalink": "095f50e9e2c806d6a873a9f299c4b1d1",
+              "api_path": "funding-rounds/095f50e9e2c806d6a873a9f299c4b1d1",
+              "web_path": "funding-round/095f50e9e2c806d6a873a9f299c4b1d1",
+              "funding_type": "venture",
+              "series": "A",
+              "series_qualifier": null,
+              "announced_on": "1985-05-01",
+              "announced_on_trust_code": 7,
+              "closed_on": "1985-05-01",
+              "closed_on_trust_code": 7,
+              "money_raised": 243000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 243000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": "USD",
+              "target_money_raised_usd": null,
+              "created_at": 1399108387,
+              "updated_at": 1400600965
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/acquisitions",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/acquired_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/ipo",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/funds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "WebPresence",
+            "uuid": "28c1775f1a591fbd24fffc2cabbeb4bb",
+            "properties": {
+              "website_type": "facebook",
+              "url": "http://www.facebook.com/pages/Aeromot-Aeronaves-e-Motores/198115970307506",
+              "created_at": 1399108271,
+              "updated_at": 1409521598
+            }
+          },
+          {
+            "type": "WebPresence",
+            "uuid": "17f0eb64bd672202f14dd351a98a80ba",
+            "properties": {
+              "website_type": "homepage",
+              "url": "http://www.aeromot.com.br/",
+              "created_at": 1399108115,
+              "updated_at": 1399108115
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/aeromot/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      }
+    }
+  }
+}
+

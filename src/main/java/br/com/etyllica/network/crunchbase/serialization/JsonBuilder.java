@@ -5,6 +5,8 @@ import br.com.etyllica.network.crunchbase.model.aquisition.AquisitionList;
 import br.com.etyllica.network.crunchbase.model.category.CategoryList;
 import br.com.etyllica.network.crunchbase.model.funding.FundingRoundList;
 import br.com.etyllica.network.crunchbase.model.investment.InvestmentList;
+import br.com.etyllica.network.crunchbase.model.investor.Investor;
+import br.com.etyllica.network.crunchbase.model.investor.InvestorList;
 import br.com.etyllica.network.crunchbase.model.organization.OrganizationList;
 
 import com.google.gson.Gson;
@@ -18,6 +20,8 @@ public class JsonBuilder {
 		builder.registerTypeAdapter(CategoryList.class, new CategoryListSerializer());
 		builder.registerTypeAdapter(FundingRoundList.class, new FundingRoundListSerializer());
 		builder.registerTypeAdapter(InvestmentList.class, new InvestmentListSerializer());
+		builder.registerTypeAdapter(Investor.class, new InvestorSerializer());
+		builder.registerTypeAdapter(InvestorList.class, new InvestorListSerializer());
 		builder.registerTypeAdapter(AquisitionList.class, new AquisitionListSerializer());
 		builder.registerTypeAdapter(OrganizationList.class, new OrganizationListSerializer());
 		Gson gson = builder.create();

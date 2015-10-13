@@ -22,13 +22,13 @@ public class PersonProperties extends WebProperties {
 	@SerializedName("born_on")
 	String bornOn;
 	
-	@SerializedName("born_on")
+	@SerializedName("born_on_trust_code")
 	int bornOnTrustCode;
 	
-	@SerializedName("born_on")
+	@SerializedName("died_on")
 	String diedOn;
 	
-	@SerializedName("born_on")
+	@SerializedName("died_on_trust_code")
 	int diedOnTrustCode;
 
 	public String getFirstName() {

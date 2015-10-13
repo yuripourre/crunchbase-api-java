@@ -1,0 +1,1055 @@
+{
+  "metadata": {
+    "version": 3,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "871fa5f5be4865c3ebe8b6cfa132234b",
+    "properties": {
+      "permalink": "hipcricket",
+      "api_path": "organizations/hipcricket",
+      "web_path": "organization/hipcricket",
+      "name": "Hipcricket",
+      "also_known_as": null,
+      "short_description": "Hipcricket provides a unified mobile engagement platform that drives awareness, sales and loyalty for brands.",
+      "description": "Hipcricket provides a unified mobile engagement platform that drives awareness, sales, and loyalty. The AD LIFE® platform has been used by internationally recognized brands and agencies to power over 400,000 campaigns across SMS, 2D/QR codes, mobile websites, advertising networks, social media, and branded apps. \r\n\r\nHipcricket’s clients solve business problems with ROI-producing mobile marketing and  advertising programs. We have provided measurable successes across an industry-leading 400,000 campaigns for our clients in Consumer Packaged Goods, Health & Pharma, Broadcast & Media, Quick Service Restaurants (QSR), Retail and Mobile Enterprise. \r\n\r\nHipcricket knows what it takes to connect with your consumers. Our unique technology creates one-to-one relationships between consumers and brands, often based on the trust of permission-based programs. We provide the ultimate mobile platform allowing you to engage and re-market to consumers anytime, anywhere.",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": null,
+      "role_group": null,
+      "role_school": null,
+      "founded_on": "2004-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": "HIPP",
+      "total_funding_usd": 9550000,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.hipcricket.com/home",
+      "created_at": 1241040223,
+      "updated_at": 1436769681
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "image",
+          "uuid": "e53bac5597443aa051a0649e3c511325",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1397207295/6763965b64c190664818527e46b3a3c0.png",
+            "content_type": "image/png",
+            "height": 76,
+            "width": 189,
+            "filesize": 4110,
+            "created_at": 1398018889,
+            "updated_at": 1398018889
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/current_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "dc7e2b94ef2028c2bd890663631a4295",
+            "properties": {
+              "title": "Chief Operating Officer",
+              "started_on": "2013-07-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1391758364,
+              "updated_at": 1437763656
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "b1d631c11bd5c978479badce490a02db",
+                "properties": {
+                  "permalink": "doug-stovall",
+                  "api_path": "people/doug-stovall",
+                  "web_path": "person/doug-stovall",
+                  "first_name": "Doug",
+                  "last_name": "Stovall",
+                  "also_known_as": null,
+                  "bio": "Mr. Stovall has been in the mobile industry for 15 years. He joined Hipcricket, Inc. in January 2009 as Senior Vice President to lead sales, client services, and the Company’s advertising network. Mr. Stovall was promoted to Executive Vice President – Sales and Services in July 2012 and was named COO in July of 2013.\r\n\r\nAt Hipcricket, he has guided the launch of new products that are recognized for mobile advertising and mobile marketing innovation, contributing to the Company’s growing sales and expanding list of Fortune 100 customers. Since Mr. Stovall’s arrival, the Company has achieved record sales, been named “The Preferred Provider of High Impact Mobile Marketing Solutions in the United States” by industry analyst firm Frost & Sullivan, and passed the industry-leading 250,000 campaign count.\r\n\r\nMr. Stovall has created and directed the mobile sales, product and services units for Acuity Mobile, Merkle, Inc., TeleCommunications Systems (TSYS), Aether Systems (ATHX) and Xpedior. In 2007, he was named Vice President of Sales for Acuity Mobile. He created and directed a mobile sales organization and implemented a corporate customer acquisition strategy, a position he held until September 2009. Mr. Stovall was part of the executive team that successfully sold Acuity Mobile to NAVTEQ, a Nokia (NOK) company, in 2009.\r\n\r\nMr. Stovall was a key member of the team that was awarded the Frost & Sullivan Engineering Award for Merger and Acquisition Strategy for the sale of Aether Systems to TCS. \r\n\r\nMr. Stovall is a frequent speaker at mobile industry events, and also has experience building strategic partnerships with carriers and handset manufacturers. Mr. Stovall was awarded Motorola’s 2006 U.S. Enterprise Mobility Award, and he was also a recipient of Intermec’s 2005 New Partner of the Year Award.\r\n\r\nDoug is a frequent speaker at mobile industry events. He lives in Seattle with his lovely wife, three children, cat and two fish.",
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1391787164,
+                  "updated_at": 1424961817
+                }
+              }
+            }
+          }
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 7,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "615e522f9083592b657f6917d0ea9b8f",
+            "properties": {
+              "title": "VP Advertising Strategy and Sales",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1377940762,
+              "updated_at": 1410823070
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "cf80e05017a3b39df5ba795b0f13760f",
+                "properties": {
+                  "permalink": "michael-weaver",
+                  "api_path": "people/michael-weaver",
+                  "web_path": "person/michael-weaver",
+                  "first_name": "Michael",
+                  "last_name": "Weaver",
+                  "also_known_as": null,
+                  "bio": null,
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1216434147,
+                  "updated_at": 1436794440
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "d35c3f2d4e3b4eab94f0c669a032b6a1",
+            "properties": {
+              "title": "Sr. Director, Brand Solutions",
+              "started_on": "2008-05-01",
+              "started_on_trust_code": 7,
+              "ended_on": "2010-06-30",
+              "ended_on_trust_code": 7,
+              "created_at": 1334963761,
+              "updated_at": 1437764417
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "8c1b82025f0594a154c7a261bb6c1ce7",
+                "properties": {
+                  "permalink": "scott-rogers",
+                  "api_path": "people/scott-rogers",
+                  "web_path": "person/scott-rogers",
+                  "first_name": "Scott",
+                  "last_name": "Rogers",
+                  "also_known_as": null,
+                  "bio": null,
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1305268537,
+                  "updated_at": 1424951832
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "ddd6de6264e2f0f7e737040cade59e8c",
+            "properties": {
+              "title": "Chief Executive Officer",
+              "started_on": "2004-08-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1391709455,
+              "updated_at": 1437765216
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "6981eaac990a6b761b40a9cdff028a22",
+                "properties": {
+                  "permalink": "ivan-braiker",
+                  "api_path": "people/ivan-braiker",
+                  "web_path": "person/ivan-braiker",
+                  "first_name": "Ivan",
+                  "last_name": "Braiker",
+                  "also_known_as": null,
+                  "bio": "Mr. Braiker (61) has over 30 years experience in broadcast media and has a reputation for leadership that has earned him the respect of the entire industry. He is a co-founder of Hipcricket Inc. and served as its Chief Executive Officer from August 2004 until its merger with Augme in August 2011. \r\n\r\nHipcricket was twice named a pioneer by CTIA – The Wireless Association and has been called \"The Preferred Provider Of High Impact Mobile Marketing Solutions In The United States\" by a leading industry analyst firm.\r\n\r\nMr. Braiker was also formerly the co-founder and president of the Satellite Music Network where he pioneered 24 hour a day programming. In addition, he founded Olympic Broadcasting, which became a NASDAQ publicly traded company, introducing innovative new music formats and creating iconic brands. \r\n\r\nHe is a frequent speaker at many advertising and media events, including conferences held by the National Association of Broadcasters and Radio Advertising Bureau. Mr. Braiker also serves on the Board of Directors of Abacast, Inc., Vega Performance Marketing, and Studio One.",
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1391738255,
+                  "updated_at": 1438698473
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "c92c6b947acedc3befbad3667f4ebc79",
+            "properties": {
+              "title": "Director, Brand Solutions",
+              "started_on": "2011-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": "2012-01-01",
+              "ended_on_trust_code": 4,
+              "created_at": 1369231440,
+              "updated_at": 1434174316
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "ad1e04d317e74001f5c161571bf01dbd",
+                "properties": {
+                  "permalink": "clay-shipman",
+                  "api_path": "people/clay-shipman",
+                  "web_path": "person/clay-shipman",
+                  "first_name": "Clay",
+                  "last_name": "Shipman",
+                  "also_known_as": null,
+                  "bio": "Clay Shipman is the Senior Vice President, Channel Development & Platform Sales at MobileFuse.\r\n\r\nClay joins MobileFuse with over 12 years of sales and marketing experience, specializing in emerging technologies including mobile media and platform technologies.\r\nHis focus on evangelizing new technologies and first mover advantages has helped marketers push the envelope and resulted in countless effective, award winning mobile marketing campaigns. \r\n\r\nPrior to joining MobileFuse as VP of Channel Development, Mr. Shipman was Director of Brand Solutions at Hipcricket, and was the Co - Founder & Executive Vice President of Media Cannon, Inc., sold to Velti (Nasdaq VELT) in June 2010 where he lead all sales, business development, and client relationship activity including content, channel, and carrier partnerships through 8 years of successful growth. \r\n\r\nPrior to co-founding Media Cannon, Mr. Shipman was vice president of business development at GenerationPiX, and was instrumental in launching Logitech Mobile Video, North America’s first commercially available live streaming video application on a major carrier network. \r\n\r\nMr. Shipman also lead GenerationPiX’s efforts in the integrated commercial security industry where he developed partnerships with several of the industry’s leading DVR manufacturers to provide remote access from cell phones to live video feeds of integrated video security systems. \r\n\r\nPrior to GenerationPiX, Mr. Shipman Co - founded D1Athletes.com .\r\n\r\nHe was an associate of Pabulum Ventures, an early stage venture incubator.",
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1369255904,
+                  "updated_at": 1425667144
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "0f55bb1869bcf9b60c0078a30532d060",
+            "properties": {
+              "title": "Chief Financial Officer",
+              "started_on": "2007-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1391760804,
+              "updated_at": 1434152361
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "99f2f0dda4bc727d3b7eb64c1b62e1b1",
+                "properties": {
+                  "permalink": "tom-virgin",
+                  "api_path": "people/tom-virgin",
+                  "web_path": "person/tom-virgin",
+                  "first_name": "Tom",
+                  "last_name": "Virgin",
+                  "also_known_as": null,
+                  "bio": "Tom directs all aspects of Hipcricket®’s financial operations with a flexibility borne of 30 years in both small and large companies — many of them as a CFO. Soon after he arrived at Hipcricket® in 2007, Tom led the efforts that resulted in Hipcricket® going public on the London Stock Exchange\r\n\r\nHis most recent position was as executive vice president and CFO for Talyst Inc., which was named one of Fast Company magazine’s \"Fast 50 Reader Favorites\" in March 2007 — an honor bestowed on firms that readers believe provide the most innovative and progressive \"profit-driven solutions for what ails the planet.\" \r\n\r\nAt Talyst, that work involved providing software and equipment solutions that improve efficiency and patient safety at acute care hospitals, delivery networks, and long-term-care pharmacies. For his own contributions, Tom received the Puget Sound Business Journal’s CFO of the Year Award in the Small Private Company category.\r\n\r\nImmediately before joining Talyst, Tom was vice president of finance and administration and CFO for WizKids, a Bellevue, Wash. company that creates and sells collectible miniature games. Tom joined the company in 2001; by 2003, he was directing its sale to the Topps Co.\r\n\r\nTom started his career in public accounting performing audit and tax work for companies in a variety of industries. He spent more than 15 years at Seafirst Bank (now Bank of America), where he was senior vice president and controller. From there, he stepped into his first CFO role, at a commercial leasing company. He subsequently served as interim CFO for two software companies, working on both funding and financial operations.\r\n\r\nTom is active in his professional community as a member of Financial Executives International, the American Institute of CPAs, and the Washington Society of CPAs.",
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1391789604,
+                  "updated_at": 1425866100
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "04873187ff506f2e750f180f4341fac1",
+            "properties": {
+              "title": "Vice President, Business Development",
+              "started_on": "2004-01-01",
+              "started_on_trust_code": 4,
+              "ended_on": "2005-01-01",
+              "ended_on_trust_code": 4,
+              "created_at": 1304542761,
+              "updated_at": 1434170399
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "f4d711c14b9abbe52fef7d895baff755",
+                "properties": {
+                  "permalink": "drew-weinstein",
+                  "api_path": "people/drew-weinstein",
+                  "web_path": "person/drew-weinstein",
+                  "first_name": "Drew",
+                  "last_name": "Weinstein",
+                  "also_known_as": null,
+                  "bio": null,
+                  "role_investor": null,
+                  "born_on": "1975-01-01",
+                  "born_on_trust_code": 4,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1304567960,
+                  "updated_at": 1425066967
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "3172f57d6dbdb1df3f1ac50038a99a53",
+            "properties": {
+              "title": "Senior Vice President of Business Development, Channel Sales",
+              "started_on": null,
+              "started_on_trust_code": null,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1326858022,
+              "updated_at": 1410822727
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "e342e372839c58fdd83777d8f95c6d2a",
+                "properties": {
+                  "permalink": "alan-sultan",
+                  "api_path": "people/alan-sultan",
+                  "web_path": "person/alan-sultan",
+                  "first_name": "Alan",
+                  "last_name": "Sultan",
+                  "also_known_as": null,
+                  "bio": null,
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1326886822,
+                  "updated_at": 1424974521
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/investors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/owned_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/sub_organizations",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "offices": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "uuid": "9d735f79be5a6479d35aafa8da3cd403",
+            "properties": {
+              "name": null,
+              "street_1": "350 7th Ave., 2nd Fl.",
+              "street_2": null,
+              "postal_code": "10001",
+              "city": "New York",
+              "city_web_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+              "region": "NY",
+              "region_code2": "NY",
+              "region_web_path": "",
+              "country": "United States",
+              "country_code2": "US",
+              "country_code3": "USA",
+              "country_web_path": "",
+              "latitude": null,
+              "longitude": null,
+              "created_at": 1297434844,
+              "updated_at": 1397991990
+            }
+          },
+          {
+            "type": "Address",
+            "uuid": "84d39cdc65bc6a7410f48d8ec33c67c5",
+            "properties": {
+              "name": null,
+              "street_1": "5 Concourse Pkwy, Suite 900",
+              "street_2": null,
+              "postal_code": "30328",
+              "city": "Atlanta",
+              "city_web_path": "location/atlanta/d8030351c1d20ace2b33794a95c99b7c",
+              "region": "GA",
+              "region_code2": "GA",
+              "region_web_path": "",
+              "country": "United States",
+              "country_code2": "US",
+              "country_code3": "USA",
+              "country_web_path": "",
+              "latitude": null,
+              "longitude": null,
+              "created_at": 1381846017,
+              "updated_at": 1397992044
+            }
+          },
+          {
+            "type": "Address",
+            "uuid": "ba6488f16c6aac04b3181efc5a33fccb",
+            "properties": {
+              "name": "Headquarters",
+              "street_1": "110 110th Ave NE",
+              "street_2": "Ste. 410",
+              "postal_code": "98004",
+              "city": "Bellevue",
+              "city_web_path": "location/bellevue/16de61784c1e71790417afcd95455952",
+              "region": "WA",
+              "region_code2": "WA",
+              "region_web_path": "",
+              "country": "United States",
+              "country_code2": "US",
+              "country_code3": "USA",
+              "country_web_path": "",
+              "latitude": null,
+              "longitude": null,
+              "created_at": 1400539623,
+              "updated_at": 1406880908
+            }
+          }
+        ]
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "9d735f79be5a6479d35aafa8da3cd403",
+          "properties": {
+            "name": null,
+            "street_1": "350 7th Ave., 2nd Fl.",
+            "street_2": null,
+            "postal_code": "10001",
+            "city": "New York",
+            "city_web_path": "location/new-york/d64b7615985cfbf44affaa89d70c4050",
+            "region": "NY",
+            "region_code2": "NY",
+            "region_web_path": "",
+            "country": "United States",
+            "country_code2": "US",
+            "country_code3": "USA",
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1297434844,
+            "updated_at": 1397991990
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "categories": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Market",
+            "uuid": "6cb685372de1b0412ee5451ff81bccab",
+            "properties": {
+              "name": "Advertising",
+              "web_path": "category/advertising/6cb685372de1b0412ee5451ff81bccab",
+              "created_at": 1397980727,
+              "updated_at": 1444465726
+            }
+          },
+          {
+            "type": "Market",
+            "uuid": "d21ea2937b41bcfe4bf7df25b573cc1c",
+            "properties": {
+              "name": "Mobile Commerce",
+              "web_path": "category/mobile-commerce/d21ea2937b41bcfe4bf7df25b573cc1c",
+              "created_at": 1397980727,
+              "updated_at": 1444331698
+            }
+          },
+          {
+            "type": "Market",
+            "uuid": "2eecf11d5b07d3d2a042643c5025e4ec",
+            "properties": {
+              "name": "Business Analytics",
+              "web_path": "category/business-analytics/2eecf11d5b07d3d2a042643c5025e4ec",
+              "created_at": 1397980728,
+              "updated_at": 1444054739
+            }
+          }
+        ]
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "8da41802b5328a33860383c1c35e2935",
+            "properties": {
+              "permalink": "tatango",
+              "api_path": "organizations/tatango",
+              "web_path": "organization/tatango",
+              "name": "Tatango",
+              "also_known_as": null,
+              "short_description": "Tatango allows users to create and manage their own text messaging campaigns.",
+              "description": "Founded by Derek Johnson in his parent's basement at the age of 22, Tatango is a group SMS service.\r\n\r\nWith one message from the computer or mobile phone, the service has the ability to reach thousands of people, instantaneously. Initially built as a service to help fraternities communicate via text messaging, Tatango has grown to a leader in the industry, with groups ranging from the generic organization to fortune 500 businesses.\r\n\r\nThe Tatango service doesn't require any special phone or its users to download any software to use the service.",
+              "primary_role": "company",
+              "role_company": true,
+              "role_investor": null,
+              "role_group": null,
+              "role_school": null,
+              "founded_on": "2007-10-01",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": 0,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 600000,
+              "number_of_investments": 0,
+              "homepage_url": "http://www.tatango.com",
+              "created_at": 1214475465,
+              "updated_at": 1442447950
+            }
+          }
+        ]
+      },
+      "memberships": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/memberships",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "5213478198b8d09f0cc7a9f619cb1594",
+            "properties": {
+              "permalink": "a-coalition-of-mobile-engagement-providers",
+              "api_path": "organizations/a-coalition-of-mobile-engagement-providers",
+              "web_path": "organization/a-coalition-of-mobile-engagement-providers",
+              "name": "A Coalition of Mobile Engagement Providers",
+              "also_known_as": null,
+              "short_description": "To ask the FCC to clarify that the new “prior express written consent” requirement applies only to consents secured after October 16, 2013.",
+              "description": "Petitions to Forbear or Clarify New FCC TCPA Rules Filed\r\nPosted by Yaron Dori on October 17, 2013\r\nEarlier today, two entities -- the Direct Marketing Association (“DMA”) and a Coalition of Mobile Engagement Providers (“Coalition”) -- filed petitions at the FCC asking the agency to stay and forbear from enforcing, or clarify, certain aspects of the “prior express written consent” requirement that went into effect yesterday for prerecorded calls to residential numbers and autodialed or prerecorded calls or text messages to mobile numbers. The petitions are accessible here. \r\n\r\nThe DMA petition asks the FCC to forbear from enforcing the definition of “prior express written consent,” which as a practical matter requires entities to incorporate certain FCC-prescribed language into their consent processes before “telemarketing” or “advertisement” calls can be transmitted via prerecorded messages or automated means to mobile numbers.  Part of the DMA’s rationale is that consents secured in advance of the October 16, 2013, implementation date for the new “prior express written consent” requirement should be sufficient, and that requiring entities to include the FCC’s prescribed language in the consent process likely would cause confusion, especially among consumers who previously consented to receive such calls and messages.  The DMA also asked the FCC to stay its “prior express written consent” definition until the FCC rules on the forbearance request.\r\n\r\nThe Coalition petition is more narrow, and asks the FCC to clarify that the new “prior express written consent” requirement (and thus the FCC-prescribed language for such consent) applies only to consents secured after October 16, 2013.  Part of the Coalition’s argument is that the text of the FCC order promulgating the new requirement focused on new customers and suggested that “prior express written consent” would be needed only where some form of written consent had not previously been obtained.\r\n\r\nThe FCC’s new rules have been subject to criticism from various quarters, principally because the “prior express written consent” process does not appear to have been formulated with commercial text message programs and existing industry best practices in mind.  We would not be surprised if more petitions seeking clarification, forbearance or stays are filed in the coming weeks.  In the meantime, the next steps for the DMA and Coalition petitions will be for the FCC to place them on public notice so interested parties can comment on them.  After that, they will be subject to consideration by the agency.\r\nhttp://apps.fcc.gov/ecfs/document/view?id=7520946937",
+              "primary_role": "company",
+              "role_company": true,
+              "role_investor": null,
+              "role_group": null,
+              "role_school": null,
+              "founded_on": "2013-01-01",
+              "founded_on_trust_code": 4,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": 0,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 0,
+              "homepage_url": null,
+              "created_at": 1402158520,
+              "updated_at": 1432080365
+            }
+          }
+        ]
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "9f4ea5d3e8dd7e74203699fb29b80e0d",
+            "properties": {
+              "permalink": "9f4ea5d3e8dd7e74203699fb29b80e0d",
+              "api_path": "funding-rounds/9f4ea5d3e8dd7e74203699fb29b80e0d",
+              "web_path": "funding-round/9f4ea5d3e8dd7e74203699fb29b80e0d",
+              "funding_type": "venture",
+              "series": null,
+              "series_qualifier": null,
+              "announced_on": "2013-10-15",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 9550000,
+              "money_raised_currency_code": "USD",
+              "money_raised_usd": 9550000,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": "USD",
+              "target_money_raised_usd": null,
+              "created_at": 1381835643,
+              "updated_at": 1416340390
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/acquisitions",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/acquired_by",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "Acquisition",
+          "uuid": "708f7f8cd58c10c3118e933294ff9908",
+          "properties": {
+            "api_path": "acquisitions/708f7f8cd58c10c3118e933294ff9908",
+            "web_path": "acquisition/708f7f8cd58c10c3118e933294ff9908",
+            "price": 44500000,
+            "price_currency_code": "USD",
+            "price_usd": null,
+            "payment_type": null,
+            "acquisition_type": null,
+            "acquisition_status": null,
+            "disposition_of_acquired": null,
+            "announced_on": "2011-08-04",
+            "announced_on_trust_code": 7,
+            "completed_on": null,
+            "completed_on_trust_code": null,
+            "created_at": 1312510541,
+            "updated_at": 1397995013
+          },
+          "relationships": {
+            "acquiree": {
+              "type": "Organization",
+              "uuid": "871fa5f5be4865c3ebe8b6cfa132234b",
+              "properties": {
+                "permalink": "hipcricket",
+                "api_path": "organizations/hipcricket",
+                "web_path": "organization/hipcricket",
+                "name": "Hipcricket",
+                "also_known_as": null,
+                "short_description": "Hipcricket provides a unified mobile engagement platform that drives awareness, sales and loyalty for brands.",
+                "description": "Hipcricket provides a unified mobile engagement platform that drives awareness, sales, and loyalty. The AD LIFE® platform has been used by internationally recognized brands and agencies to power over 400,000 campaigns across SMS, 2D/QR codes, mobile websites, advertising networks, social media, and branded apps. \r\n\r\nHipcricket’s clients solve business problems with ROI-producing mobile marketing and  advertising programs. We have provided measurable successes across an industry-leading 400,000 campaigns for our clients in Consumer Packaged Goods, Health & Pharma, Broadcast & Media, Quick Service Restaurants (QSR), Retail and Mobile Enterprise. \r\n\r\nHipcricket knows what it takes to connect with your consumers. Our unique technology creates one-to-one relationships between consumers and brands, often based on the trust of permission-based programs. We provide the ultimate mobile platform allowing you to engage and re-market to consumers anytime, anywhere.",
+                "primary_role": "company",
+                "role_company": true,
+                "role_investor": null,
+                "role_group": null,
+                "role_school": null,
+                "founded_on": "2004-01-01",
+                "founded_on_trust_code": 4,
+                "is_closed": false,
+                "closed_on": null,
+                "closed_on_trust_code": 0,
+                "num_employees_min": null,
+                "num_employees_max": null,
+                "stock_exchange": null,
+                "stock_symbol": "HIPP",
+                "total_funding_usd": 9550000,
+                "number_of_investments": 0,
+                "homepage_url": "http://www.hipcricket.com/home",
+                "created_at": 1241040223,
+                "updated_at": 1436769681
+              }
+            }
+          }
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/ipo",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "Ipo",
+          "uuid": "2203a5ba631e7dcbd62a403b633872bc",
+          "properties": {
+            "api_path": "ipos/2203a5ba631e7dcbd62a403b633872bc",
+            "web_path": "ipo/2203a5ba631e7dcbd62a403b633872bc",
+            "went_public_on": "0000-01-01",
+            "went_public_on_trust_code": 4,
+            "stock_exchange_symbol": null,
+            "stock_symbol": null,
+            "shares_sold": null,
+            "opening_share_price": null,
+            "opening_share_price_currency_code": "USD",
+            "opening_share_price_usd": null,
+            "opening_valuation": null,
+            "opening_valuation_currency_code": "USD",
+            "opening_valuation_usd": null,
+            "money_raised": null,
+            "money_raised_currency_code": "USD",
+            "money_raised_usd": null,
+            "created_at": 1400539709,
+            "updated_at": 1436769768
+          }
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/funds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 3,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "WebPresence",
+            "uuid": "d7669df9ceab20b2f5a5a8370b4310c6",
+            "properties": {
+              "website_type": "homepage",
+              "url": "http://www.hipcricket.com/home",
+              "created_at": 1241015023,
+              "updated_at": 1397987552
+            }
+          },
+          {
+            "type": "WebPresence",
+            "uuid": "38cee44ae50ae937e9c9ba7de2a43f46",
+            "properties": {
+              "website_type": "blog",
+              "url": "http://www.hipcricket.com/company/blog.aspx",
+              "created_at": 1241015023,
+              "updated_at": 1397987552
+            }
+          },
+          {
+            "type": "WebPresence",
+            "uuid": "cc07e2374acf7e36aaa325c3b0d5748b",
+            "properties": {
+              "website_type": "twitter",
+              "url": "http://twitter.com/hipcricket",
+              "created_at": 1241015023,
+              "updated_at": 1409451285
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "image",
+            "uuid": "631eeda99a2c817b448426f3a5bf122d",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1397207296/2afff011bc51551d308e6de881c52904.jpg",
+              "content_type": "image/jpeg",
+              "height": 722,
+              "width": 892,
+              "filesize": 173443,
+              "created_at": 1398018889,
+              "updated_at": 1398018889
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 15,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/hipcricket/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "5eac6b0ce5e08972f4922ac920d31d0d",
+            "properties": {
+              "title": "Augme Technologies Buys Mobile Marketing Company Hipcricket&#8217;s Assets For Up To $72&nbsp;Million",
+              "author": "Robin Wauters",
+              "posted_on": "2011-08-04",
+              "posted_on_trust_code": 7,
+              "url": "http://techcrunch.com/2011/08/04/augme-technologies-buys-mobile-marketing-company-hipcrickets-assets-for-up-to-72-million/",
+              "created_at": 1312461249,
+              "updated_at": 2011
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "3c89e02b4b1e3eafd1cca40e23fde03a",
+            "properties": {
+              "title": "Augme Technologies To Acquire Mobile Ad Firm Hipcricket For $44.5&nbsp;Million",
+              "author": "Rip Empson",
+              "posted_on": "2011-08-04",
+              "posted_on_trust_code": 7,
+              "url": "http://techcrunch.com/2011/08/04/augme-technologies-to-acquire-mobile-ad-firm-hipcricket-for-44-5-million/",
+              "created_at": 1312461019,
+              "updated_at": 2011
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "81ee34b9ab1144938b2c4e84189efff0",
+            "properties": {
+              "title": "6 Secrets of Successful Geofence Campaigns",
+              "author": "Rip Gerber",
+              "posted_on": "2013-03-21",
+              "posted_on_trust_code": null,
+              "url": "http://www.alleywatch.com/2013/03/6-secrets-of-successful-geofence-campaigns",
+              "created_at": 1443563761,
+              "updated_at": 1443563761
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "95ee226ba6264a318b27cd20c4f0172b",
+            "properties": {
+              "title": "Corrected: Industry Moves: Hipcricket; GoldSpot",
+              "author": "Amanda Natividad",
+              "posted_on": "2010-02-06",
+              "posted_on_trust_code": null,
+              "url": "https://gigaom.com/2010/02/05/419-industry-moves-hipcricket-goldspot/",
+              "created_at": 1431442215,
+              "updated_at": 1431442215
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "358c8efd2eea4f8f82cfeb38fb4115c0",
+            "properties": {
+              "title": "Adfonic Raises £4.7 Million To Grow Its Mobile Ads Auction Business",
+              "author": "Edit Staff",
+              "posted_on": "2011-09-07",
+              "posted_on_trust_code": null,
+              "url": "https://gigaom.com/2011/09/07/419-adfonic-raises-7-9-million-to-grow-its-mobile-ads-auction-business/",
+              "created_at": 1431447933,
+              "updated_at": 1431447933
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "d0c7c30f3a6cd36a072d3362a7d81aac",
+            "properties": {
+              "title": "'No smoke and mirrors': Multi-level marketing company looks for unusual fresh start in Seattle region - GeekWire",
+              "author": "Jacob Demmitt",
+              "posted_on": "2015-08-04",
+              "posted_on_trust_code": null,
+              "url": "http://www.geekwire.com/2015/no-smoke-and-mirrors-multi-level-marketing-company-looks-for-unusual-fresh-start-in-seattle-region/",
+              "created_at": 1438698472,
+              "updated_at": 1438698472
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "87fb1ba40c5f487785faa18a07ff90a7",
+            "properties": {
+              "title": "Live Blogging BIA/Kelsey’s DMS ’10 Conference – Day 1",
+              "author": "Chris Silver Smith",
+              "posted_on": "2010-09-14",
+              "posted_on_trust_code": null,
+              "url": "http://searchengineland.com/dms2010-day-one-50515",
+              "created_at": 1443563761,
+              "updated_at": 1443563761
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "f0ec1c603e05196d3443026a8ac17d9a",
+            "properties": {
+              "title": "Mobile Ad Wars: Augme Slaps Millennial Media With Patent Lawsuit Over Targeting Technologies",
+              "author": "Leena Rao",
+              "posted_on": "2012-04-05",
+              "posted_on_trust_code": 7,
+              "url": "http://techcrunch.com/2012/04/05/mobile-ad-wars-augme-slaps-millennial-media-with-patent-lawsuit-over-targeting-technologies/",
+              "created_at": 1333664689,
+              "updated_at": 2012
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "272dfde68e4e4002b628c1802d245c4b",
+            "properties": {
+              "title": "Challenges for Hyperlocal Mobile Advertising",
+              "author": "Colin Gibbs",
+              "posted_on": "2011-01-29",
+              "posted_on_trust_code": null,
+              "url": "https://gigaom.com/2011/01/29/challenges-for-hyperlocal-mobile-advertising/",
+              "created_at": 1431445689,
+              "updated_at": 1431445689
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "a709747018b6441ab169936e1b44832c",
+            "properties": {
+              "title": "Mobile Advertising Quick Hits 04.21.2010",
+              "author": "Edit Staff",
+              "posted_on": "2010-04-22",
+              "posted_on_trust_code": null,
+              "url": "https://gigaom.com/2010/04/22/419-mobile-advertising-quick-hits-04-21-2010/",
+              "created_at": 1431443038,
+              "updated_at": 1431443038
+            }
+          }
+        ]
+      }
+    }
+  }
+}

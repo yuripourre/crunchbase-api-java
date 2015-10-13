@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "version": 3,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "0c8882afdcf2acd822daa50a96641c97",
+    "properties": {
+      "permalink": "advantage-partners",
+      "api_path": "organizations/advantage-partners",
+      "web_path": "organization/advantage-partners",
+      "name": "Advantage Partners",
+      "also_known_as": null,
+      "short_description": "private equity",
+      "description": "Advantage Partners, LLP is a private equity and venture capital firm specializing in start-up, acquisitions, buyouts, buy-ins and other private equity opportunities. The firm prefers to invest in the following industries: information systems, electronic devices and components, media/entertainment, outsourcing services, financial services, healthcare, telecommunications services, electric power, food and other consumer products, specialty retail, restaurants, general manufacturing, and wholesale/distribution. It typically invests in companies with sales of between $25 million and $400 million. \r\n\r\nAdvantage Partners, LLP was founded in December 17, 1992 and is based in Tokyo, Japan with an additional office in Queensway, Hong Kong.",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": null,
+      "role_group": null,
+      "role_school": null,
+      "founded_on": "1992-01-01",
+      "founded_on_trust_code": 4,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.advantagepartners.com",
+      "created_at": 1266960643,
+      "updated_at": 1439213258
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "image",
+          "uuid": "4276a7a6d0e7982a158a42f19ff55ba6",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1397203953/9ea10134d0229796d63d7e36abbc1e4c.gif",
+            "content_type": "image/gif",
+            "height": 40,
+            "width": 348,
+            "filesize": 2089,
+            "created_at": 1398018505,
+            "updated_at": 1398018505
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/current_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Job",
+            "uuid": "17dda18abe6bcbb9a369705c78fb7305",
+            "properties": {
+              "title": "Director",
+              "started_on": "2007-07-01",
+              "started_on_trust_code": 7,
+              "ended_on": "2008-07-01",
+              "ended_on_trust_code": 7,
+              "created_at": 1266931844,
+              "updated_at": 1438042830
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "7bcdab53d3d35d06e10caaa638ca1d3c",
+                "properties": {
+                  "permalink": "justin-pirie",
+                  "api_path": "people/justin-pirie",
+                  "web_path": "person/justin-pirie",
+                  "first_name": "Justin",
+                  "last_name": "Pirie",
+                  "also_known_as": null,
+                  "bio": "Justin is a SaaS and Cloud Product and Strategy Specialist.\r\n\r\nHe runs the largest SaaS community in the world, blogs and consults.\r\n\r\nIn his consulting he helps companies achieve excellent product & market fit and execute time tested SaaS strategies, often helping legacy vendors transition to SaaS.\r\n",
+                  "role_investor": null,
+                  "born_on": "1981-07-15",
+                  "born_on_trust_code": 7,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1266960644,
+                  "updated_at": 1424947635
+                }
+              }
+            }
+          },
+          {
+            "type": "Job",
+            "uuid": "9bacd71dcbfd898c41bc69308d067eb8",
+            "properties": {
+              "title": "Team Member",
+              "started_on": "2003-06-01",
+              "started_on_trust_code": 6,
+              "ended_on": null,
+              "ended_on_trust_code": null,
+              "created_at": 1395807634,
+              "updated_at": 1437770104
+            },
+            "relationships": {
+              "person": {
+                "type": "Person",
+                "uuid": "7d30a044887d49b9726b93fe8b73c152",
+                "properties": {
+                  "permalink": "takeshi-sankawa",
+                  "api_path": "people/takeshi-sankawa",
+                  "web_path": "person/takeshi-sankawa",
+                  "first_name": "Takeshi",
+                  "last_name": "Sankawa",
+                  "also_known_as": null,
+                  "bio": "Graduated from Keio University, Bachelor of Arts in Economics. Received an MBA Degree from the Wharton School of Business\r\nMay 1991 Entered Fuji Bank, Ltd.\r\nJun 1998 Joined Boston Consulting Group\r\nJun 2000 Entered Dream Incubator Inc.\r\nJun 2003 Joined Advantage Partners\r\nJun 2006 Founded Aphoris, Inc., served as President and CEO\r\nApr 2012 Entered gumi Inc. as SVP of Corporate Strategy\r\nDec 2012 Became an executive board member and appointed COO of gumi Inc.",
+                  "role_investor": null,
+                  "born_on": null,
+                  "born_on_trust_code": null,
+                  "died_on": null,
+                  "died_on_trust_code": 0,
+                  "created_at": 1395832119,
+                  "updated_at": 1424947974
+                }
+              }
+            }
+          }
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/investors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/owned_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/sub_organizations",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "offices": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Address",
+            "uuid": "6e8722fe9c16422d016ecf3c4354f002",
+            "properties": {
+              "name": "HQ",
+              "street_1": "4-1-28 Toranomon Minato-ku",
+              "street_2": "17th Floor Toranomon Towers Office",
+              "postal_code": "105-0001",
+              "city": "Tokyo",
+              "city_web_path": "location/tokyo/127ba62dd40a3d1242c0e606f9fa9440",
+              "region": null,
+              "region_code2": "40",
+              "region_web_path": "",
+              "country": "Japan",
+              "country_code2": "JP",
+              "country_code3": "JPN",
+              "country_web_path": "",
+              "latitude": null,
+              "longitude": null,
+              "created_at": 1277550085,
+              "updated_at": 1411755725
+            }
+          }
+        ]
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/headquarters",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "Address",
+          "uuid": "6e8722fe9c16422d016ecf3c4354f002",
+          "properties": {
+            "name": "HQ",
+            "street_1": "4-1-28 Toranomon Minato-ku",
+            "street_2": "17th Floor Toranomon Towers Office",
+            "postal_code": "105-0001",
+            "city": "Tokyo",
+            "city_web_path": "location/tokyo/127ba62dd40a3d1242c0e606f9fa9440",
+            "region": null,
+            "region_code2": "40",
+            "region_web_path": "",
+            "country": "Japan",
+            "country_code2": "JP",
+            "country_code3": "JPN",
+            "country_web_path": "",
+            "latitude": null,
+            "longitude": null,
+            "created_at": 1277550085,
+            "updated_at": 1411755725
+          }
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "categories": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Market",
+            "uuid": "ae5718dc8602c733e62b28e6167091ad",
+            "properties": {
+              "name": "Finance",
+              "web_path": "category/finance/ae5718dc8602c733e62b28e6167091ad",
+              "created_at": 1397980727,
+              "updated_at": 1444482110
+            }
+          }
+        ]
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "memberships": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/memberships",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/acquisitions",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Acquisition",
+            "uuid": "1f07506f1eb0623292f2289d2486b987",
+            "properties": {
+              "api_path": "acquisitions/1f07506f1eb0623292f2289d2486b987",
+              "web_path": "acquisition/1f07506f1eb0623292f2289d2486b987",
+              "price": 78000000,
+              "price_currency_code": "USD",
+              "price_usd": 78000000,
+              "payment_type": null,
+              "acquisition_type": "Acquisition",
+              "acquisition_status": "Complete",
+              "disposition_of_acquired": null,
+              "announced_on": "2002-12-24",
+              "announced_on_trust_code": 7,
+              "completed_on": null,
+              "completed_on_trust_code": null,
+              "created_at": 1439213258,
+              "updated_at": 1439213284
+            },
+            "relationships": {
+              "acquiree": {
+                "type": "Organization",
+                "uuid": "35efdf75bd3ccd607b7bb0151ee35306",
+                "properties": {
+                  "permalink": "intuit-kk",
+                  "api_path": "organizations/intuit-kk",
+                  "web_path": "organization/intuit-kk",
+                  "name": "Intuit KK",
+                  "also_known_as": null,
+                  "short_description": "Japanese business software firm, subsidiary of Intuit",
+                  "description": null,
+                  "primary_role": "company",
+                  "role_company": true,
+                  "role_investor": null,
+                  "role_group": null,
+                  "role_school": null,
+                  "founded_on": null,
+                  "founded_on_trust_code": null,
+                  "is_closed": null,
+                  "closed_on": null,
+                  "closed_on_trust_code": 0,
+                  "num_employees_min": null,
+                  "num_employees_max": null,
+                  "stock_exchange": null,
+                  "stock_symbol": null,
+                  "total_funding_usd": 0,
+                  "number_of_investments": 0,
+                  "homepage_url": null,
+                  "created_at": 1439213258,
+                  "updated_at": 1439213461
+                }
+              }
+            }
+          }
+        ]
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/acquired_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/ipo",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/funds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "WebPresence",
+            "uuid": "15fef88a2b9106d45d67f68cf2ba57d4",
+            "properties": {
+              "website_type": "homepage",
+              "url": "http://www.advantagepartners.com",
+              "created_at": 1266931843,
+              "updated_at": 1397987649
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "image",
+            "uuid": "e50165ec629a7cb5ab8391f9847474ef",
+            "properties": {
+              "asset_path": "http://public.crunchbase.com/t_api_images/v1397203954/849885fef5dac15772a824f864eade41.jpg",
+              "content_type": "image/jpeg",
+              "height": 695,
+              "width": 898,
+              "filesize": 150516,
+              "created_at": 1398018505,
+              "updated_at": 1398018505
+            }
+          }
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 4,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/advantage-partners/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "2b5e046cac6e42e9b2b556ee2ddbd8ac",
+            "properties": {
+              "title": "Kentaro Muto Joins BDA as Managing Director in Tokyo",
+              "author": "",
+              "posted_on": "2014-07-17",
+              "posted_on_trust_code": null,
+              "url": "http://www.pr.com/press-release/570623",
+              "created_at": 1443563761,
+              "updated_at": 1443563761
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "0cb15485741f41a2b0fd057fb2ba80c0",
+            "properties": {
+              "title": "Boston Acoustics gets efficient, cuts 30 employees",
+              "author": "Steven Kim",
+              "posted_on": "2008-04-23",
+              "posted_on_trust_code": null,
+              "url": "http://www.engadget.com/2008/04/23/boston-acoustics-gets-efficient-cuts-30-employees/",
+              "created_at": 1443563761,
+              "updated_at": 1443563761
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "5b7cc288194b4a15bde57c0d2d1a83ff",
+            "properties": {
+              "title": "$2.2 billion liabilities: Japan's wireless carrier Willcom files for bankruptcy",
+              "author": "Serkan Toto",
+              "posted_on": "2010-02-19",
+              "posted_on_trust_code": null,
+              "url": "http://techcrunch.com/2010/02/19/2-2-billion-liabilities-japans-wireless-carrier-willcom-files-for-bankruptcy/",
+              "created_at": 1432062072,
+              "updated_at": 1432062072
+            }
+          },
+          {
+            "type": "News",
+            "uuid": "72ce5d8b68554da1ab8ade497a68ea61",
+            "properties": {
+              "title": "Trading Advantage Partners With eSignal To Advance Trading Education Efforts",
+              "author": "",
+              "posted_on": "2015-04-21",
+              "posted_on_trust_code": null,
+              "url": "http://www.prweb.com/releases/trading-advantage/esignal/prweb12661755.htm",
+              "created_at": 1443563761,
+              "updated_at": 1443563761
+            }
+          }
+        ]
+      }
+    }
+  }
+}

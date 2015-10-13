@@ -12,6 +12,8 @@ import br.com.etyllica.network.crunchbase.model.funding.FundingRound;
 import br.com.etyllica.network.crunchbase.model.funding.FundingRoundPageData;
 import br.com.etyllica.network.crunchbase.model.investment.Investment;
 import br.com.etyllica.network.crunchbase.model.investment.InvestmentPageData;
+import br.com.etyllica.network.crunchbase.model.investor.Investor;
+import br.com.etyllica.network.crunchbase.model.investor.InvestorPageData;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -33,14 +35,14 @@ public class OrganizationRelashionships {
     InvestmentPageData investmentsPage;
 	
 	@SerializedName("investors")
-	OrganizationPageData investorsPage;
+	InvestorPageData investorsPage;
 
 	@SerializedName("headquarters")
 	AddressPageData headquartersPage;
 	
 	@SerializedName("offices")
     AddressPageData officesPage;
-		
+	
 	public AquisitionPageData getAquisitionsPage() {
 		return aquisitionsPage;
 	}
@@ -97,11 +99,11 @@ public class OrganizationRelashionships {
 		this.headquartersPage = headquartersPage;
 	}
 	
-	public OrganizationPageData getInvestorsPage() {
+	public InvestorPageData getInvestorsPage() {
 		return investorsPage;
 	}
 
-	public void setInvestorsPage(OrganizationPageData investorsPage) {
+	public void setInvestorsPage(InvestorPageData investorsPage) {
 		this.investorsPage = investorsPage;
 	}
 
@@ -122,7 +124,7 @@ public class OrganizationRelashionships {
 		return investmentsPage.getList().getItems();
 	}
 	
-	public List<Organization> getInvestors() {
+	public List<Investor> getInvestors() {
 		return investorsPage.getList().getItems();
 	}
 	

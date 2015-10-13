@@ -30,15 +30,18 @@ public class CrunchBaseAPI {
 
 		try {
 			String json = extractJson(response);
-			Gson gson = JsonBuilder.buildGson();
-
-			Organization organization = gson.fromJson(json, OrganizationPage.class).getData();
-
-			return organization;
+			return parseOrganization(json);
 		} finally {
 			response.close();
 			httpclient.close();
 		}
+	}
+
+	public static Organization parseOrganization(String json) {
+		Gson gson = JsonBuilder.buildGson();
+		Organization organization = gson.fromJson(json, OrganizationPage.class).getData();
+
+		return organization;
 	}
 
 	public static List<Category> queryCategories(String apiKey, String permaLink) throws ClientProtocolException, IOException {

@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "version": 3,
+    "www_path_prefix": "https://www.crunchbase.com",
+    "api_path_prefix": "https://api.crunchbase.com",
+    "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+  },
+  "data": {
+    "type": "Organization",
+    "uuid": "79dbb1e1ad49054688e58cc367097c8c",
+    "properties": {
+      "permalink": "nhk-world",
+      "api_path": "organizations/nhk-world",
+      "web_path": "organization/nhk-world",
+      "name": "NHK World",
+      "also_known_as": null,
+      "short_description": "NHK (Japan Broadcasting Corporation), Japanâ€™s sole public broadcaster, introduced a radio service in 1925 and a television service in",
+      "description": "NHK (Japan Broadcasting Corporation), Japan's sole public broadcaster, introduced a radio service in 1925 and a television service in 1953. NHK is financed by the receiving fee paid by each household that owns a television set. This system enables the Corporation to maintain independence from any governmental and private organization, and ensures that the opinions of viewers and listeners are assigned top priority.",
+      "primary_role": "company",
+      "role_company": true,
+      "role_investor": null,
+      "role_group": null,
+      "role_school": null,
+      "founded_on": "1935-06-01",
+      "founded_on_trust_code": 7,
+      "is_closed": false,
+      "closed_on": null,
+      "closed_on_trust_code": 0,
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "stock_exchange": null,
+      "stock_symbol": null,
+      "total_funding_usd": 0,
+      "number_of_investments": 0,
+      "homepage_url": "http://www.nhk.or.jp/nhkworld",
+      "created_at": 1230142785,
+      "updated_at": 1439137306
+    },
+    "relationships": {
+      "primary_image": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/primary_image",
+          "sort_order": "created_at DESC"
+        },
+        "item": {
+          "type": "image",
+          "uuid": "207b38b0bfa52a109f80a2f9a641eed6",
+          "properties": {
+            "asset_path": "http://public.crunchbase.com/t_api_images/v1397199112/dd7ecfd05cf5482bc753647af06926d1.gif",
+            "content_type": "image/gif",
+            "height": 35,
+            "width": 197,
+            "filesize": 1249,
+            "created_at": 1398018885,
+            "updated_at": 1398018885
+          }
+        }
+      },
+      "founders": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/founders",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "current_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/current_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "past_team": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/past_team",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "board_members_and_advisors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/board_members_and_advisors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "investors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/investors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Organization",
+            "uuid": "b8d4ddc590110bf50908c5930cfef0f8",
+            "properties": {
+              "permalink": "itochu-corporation",
+              "api_path": "organizations/itochu-corporation",
+              "web_path": "organization/itochu-corporation",
+              "name": "ITOCHU Corporation",
+              "also_known_as": null,
+              "short_description": "The history of ITOCHU Corporation (hereinafter ITOCHU) dates back to 1858 when the Company's founder Chubei Itoh commenced linen trading",
+              "description": "The history of ITOCHU Corporation (hereinafter \"ITOCHU\") dates back to 1858 when the Company's founder Chubei Itoh commenced linen trading operations. Since then, ITOCHU has evolved and grown over 150 years into a sogo shosha, engaging in domestic trading, import/export, and overseas trading of various products such as textiles, machinery, information and communications-related products, metals, products related to oil and other energy sources, general merchandise, chemicals, and provisions and food. In addition, ITOCHU has made multifaceted investments in insurance agencies, finance, construction, real estate trading, and warehousing as well as operations and businesses incidental or related to those fields.",
+              "primary_role": "investor",
+              "role_company": null,
+              "role_investor": true,
+              "role_group": null,
+              "role_school": null,
+              "founded_on": "1858-01-01",
+              "founded_on_trust_code": 4,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": 0,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 22,
+              "homepage_url": "http://www.itochu.co.jp",
+              "created_at": 1201554876,
+              "updated_at": 1444431198
+            }
+          },
+          {
+            "type": "Organization",
+            "uuid": "fd80725f53fc70099878aeecf1e9ffbb",
+            "properties": {
+              "permalink": "microsoft",
+              "api_path": "organizations/microsoft",
+              "web_path": "organization/microsoft",
+              "name": "Microsoft",
+              "also_known_as": [
+                "msn"
+              ],
+              "short_description": "Microsoft, a software corporation, develops licensed and support products and services ranging from personal use to enterprise application.",
+              "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports and sells computer software, consumer electronics and personal computers and services. Its best known software products are the [Microsoft Windows line of operating systems](/product/windows), [Microsoft Office office suite](/product/microsoft-office), and [Internet Explorer](http://windows.microsoft.com/en-us/internet-explorer/download-ie) web browser. Its flagship hardware products are [Xbox](/product/xbox) game console and the [Microsoft Surface](/product/microsoft-surface) series of tablets.\r\n\r\nHeadquartered in Redmond, Washington, Microsoft is the [world's largest software company](http://www.softwaretop100.org/microsoft) in terms of revenue. It is also considered [one of the world's most valuable companies](http://www.forbes.com/sites/kurtbadenhausen/2013/11/06/apple-dominates-list-of-the-worlds-most-valuable-brands/) and [one of the most successful startup companies](http://vergestartups.com/top-20-startups-of-all-time/) of all time by market capitalization, revenue, growth and cultural impact. \r\n\r\nMicrosoft was founded by [Bill Gates](/person/bill-gates) and [Paul Allen](/person/paul-allen) on April 4, 1975, to develop and sell BASIC interpreters for the Altair 8800 microcomputer. The original name, \"\"Micro-Soft,\"\" was from a combination of \"\"microcomputer\"\" and \"\"software.\"\"\r\n\r\nIn 1980, the company formed a partnership with [IBM](/company/ibm), allowing Microsoft to sell its software package with the computers IBM manufactured. It rose to dominate the personal computer operating system market with MS-DOS, followed by Microsoft Windows. \r\n\r\nSince the 1990s, it has increasingly diversified from the operating system market and ventured into hardware such as the [Zune](/product/zune), a digital media player for music, videos, podcasts, and pictures; [Xbox](/product/xbox), a video game console; and [Surface](/product/microsoft-surface), a series of tablets. It has also made a presence on the web with the [MSN](/product/msn) internet portal and [Bing](/product/bing) search engine.\r\n\r\nMicrosoft has also made a number of corporate acquisitions, including [Forethought](/company/forethought), [HotMail](company/hotmail-2), and [Visio Corporation](/company/visio-corporation). In May 2011, [Microsoft acquired Skype Technologies](http://techcrunch.com/2011/05/10/microsoft-acquires-skype/) for $8.5 billion in its largest acquisition to date.",
+              "primary_role": "company",
+              "role_company": true,
+              "role_investor": true,
+              "role_group": null,
+              "role_school": null,
+              "founded_on": "1974-04-04",
+              "founded_on_trust_code": 7,
+              "is_closed": false,
+              "closed_on": null,
+              "closed_on_trust_code": 0,
+              "num_employees_min": null,
+              "num_employees_max": null,
+              "stock_exchange": null,
+              "stock_symbol": null,
+              "total_funding_usd": 0,
+              "number_of_investments": 41,
+              "homepage_url": "http://www.microsoft.com",
+              "created_at": 1399896058,
+              "updated_at": 1444496495
+            }
+          }
+        ]
+      },
+      "owned_by": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/owned_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "sub_organizations": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/sub_organizations",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "offices": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/offices",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "headquarters": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/headquarters",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "products": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/products",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "categories": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/categories",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "Market",
+            "uuid": "db01a2011e4757b3c3cca63eb94e3878",
+            "properties": {
+              "name": "News",
+              "web_path": "category/news/db01a2011e4757b3c3cca63eb94e3878",
+              "created_at": 1397980728,
+              "updated_at": 1444398799
+            }
+          }
+        ]
+      },
+      "customers": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/customers",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "competitors": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/competitors",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "memberships": {
+        "cardinality": "ManyToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/memberships",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "members": {
+        "cardinality": "ManyToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/members",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "funding_rounds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/funding_rounds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "FundingRound",
+            "uuid": "bdae954da8883f9b4dab3dce9a62c5ed",
+            "properties": {
+              "permalink": "bdae954da8883f9b4dab3dce9a62c5ed",
+              "api_path": "funding-rounds/bdae954da8883f9b4dab3dce9a62c5ed",
+              "web_path": "funding-round/bdae954da8883f9b4dab3dce9a62c5ed",
+              "funding_type": "venture",
+              "series": "d",
+              "series_qualifier": null,
+              "announced_on": "1987-06-16",
+              "announced_on_trust_code": 7,
+              "closed_on": null,
+              "closed_on_trust_code": null,
+              "money_raised": 1800000,
+              "money_raised_currency_code": "JPY",
+              "money_raised_usd": null,
+              "target_money_raised": null,
+              "target_money_raised_currency_code": null,
+              "target_money_raised_usd": null,
+              "created_at": 1230113985,
+              "updated_at": 1430245623
+            }
+          }
+        ]
+      },
+      "investments": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/investments",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquisitions": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/acquisitions",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "acquired_by": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/acquired_by",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "ipo": {
+        "cardinality": "OneToOne",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/ipo",
+          "sort_order": "created_at DESC"
+        }
+      },
+      "funds": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/funds",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "websites": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 2,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/websites",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "WebPresence",
+            "uuid": "aecf0e5b150986239b6e1717720b9897",
+            "properties": {
+              "website_type": "homepage",
+              "url": "http://www.nhk.or.jp/nhkworld",
+              "created_at": 1230113985,
+              "updated_at": 1397987766
+            }
+          },
+          {
+            "type": "WebPresence",
+            "uuid": "ade67a2de47c281810148b8154207378",
+            "properties": {
+              "website_type": "facebook",
+              "url": "http://www.facebook.com/nhkworld",
+              "created_at": 1397877760,
+              "updated_at": 2014
+            }
+          }
+        ]
+      },
+      "images": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/images",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "videos": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 0,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/videos",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+
+        ]
+      },
+      "news": {
+        "cardinality": "OneToMany",
+        "paging": {
+          "total_items": 1,
+          "first_page_url": "https://api.crunchbase.com/v/3/organizations/nhk-world/news",
+          "sort_order": "created_at DESC"
+        },
+        "items": [
+          {
+            "type": "News",
+            "uuid": "705e22e8a913d9221c31b6bb83041835",
+            "properties": {
+              "title": "NHK World is the chillest channel on TV",
+              "author": "chrisziegler",
+              "posted_on": "2015-08-09",
+              "posted_on_trust_code": null,
+              "url": "http://www.theverge.com/2015/8/9/9118905/nhk-world-japanese-tv",
+              "created_at": 1439137306,
+              "updated_at": 1439137306
+            }
+          }
+        ]
+      }
+    }
+  }
+}
