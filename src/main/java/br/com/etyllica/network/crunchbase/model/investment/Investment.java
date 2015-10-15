@@ -9,7 +9,7 @@ public class Investment extends Item {
 	@SerializedName("properties")
 	InvestmentProperties properties;
 
-	@SerializedName("relashionships")
+	@SerializedName("relationships")
 	InvestmentRelashionships relashionships;
 
 	public InvestmentProperties getProperties() {

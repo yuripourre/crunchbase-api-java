@@ -15,6 +15,12 @@ public class FundingRoundProperties extends WebProperties {
 	@SerializedName("announced_on_trust_code")
 	int announcedOnTrustCode = 0;
     	
+	@SerializedName("closed_on")
+    String closedOn = "";
+	
+	@SerializedName("closed_on_trust_code")
+	int closedOnTrustCode = 0;
+	
 	@SerializedName("money_raised")
 	int moneyRaised = 0;
     
@@ -58,6 +64,22 @@ public class FundingRoundProperties extends WebProperties {
 
 	public void setAnnouncedOnTrustCode(int announcedOnTrustCode) {
 		this.announcedOnTrustCode = announcedOnTrustCode;
+	}
+
+	public String getClosedOn() {
+		return closedOn;
+	}
+
+	public void setClosedOn(String closedOn) {
+		this.closedOn = closedOn;
+	}
+
+	public int getClosedOnTrustCode() {
+		return closedOnTrustCode;
+	}
+
+	public void setClosedOnTrustCode(int closedOnTrustCode) {
+		this.closedOnTrustCode = closedOnTrustCode;
 	}
 
 	public int getMoneyRaised() {

@@ -7,13 +7,13 @@ import br.com.etyllica.network.crunchbase.model.base.Page;
 public class OrganizationPage extends Page {
 
 	@SerializedName("data")
-	Organization data;
+	OrganizationPageData data;
 
-	public Organization getData() {
+	public OrganizationPageData getData() {
 		return data;
 	}
 
-	public void setData(Organization data) {
+	public void setData(OrganizationPageData data) {
 		this.data = data;
 	}
 		

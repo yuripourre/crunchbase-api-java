@@ -20,11 +20,8 @@ import br.com.etyllica.core.graphics.Graphic;
 import br.com.etyllica.gui.Button;
 import br.com.etyllica.gui.label.TextLabel;
 import br.com.etyllica.layer.Layer;
-import br.com.etyllica.network.crunchbase.CrunchBaseAPI;
-import br.com.etyllica.network.crunchbase.export.CompanyRow;
 import br.com.etyllica.network.crunchbase.export.Exporter;
 import br.com.etyllica.network.crunchbase.export.SheetExporter;
-import br.com.etyllica.network.crunchbase.model.organization.Organization;
 import br.com.etyllica.util.PathHelper;
 
 public class ExporterApplication extends Application implements SelectFileListener, Runnable {
@@ -173,14 +170,9 @@ public class ExporterApplication extends Application implements SelectFileListen
 		int count = 0;
 		for(String permalink: companies) {
 			loadedInfo = "Loading: "+permalink;
-			Organization company = CrunchBaseAPI.queryCompany(apiKey, permalink);
-			System.out.println(company.getUuid());
+			System.out.println(permalink);
 
-			CompanyRow row = new CompanyRow(company);
-			System.out.println(Exporter.writeLine(companyWriter, row.buildCompanyText()));
-			System.out.println(Exporter.writeLine(roundsWriter, row.buildRoundsText()));
-			System.out.println(Exporter.writeLine(investmentsWriter, row.buildInvestmentsText()));
-			System.out.println(Exporter.writeLine(aquisitionsWriter, row.buildAquisionsText()));
+			SheetExporter.exportCompany(apiKey, companyWriter, roundsWriter, investmentsWriter, aquisitionsWriter, permalink);
 			count++;
 			loaded = (count*100)/companies.size();
 		}

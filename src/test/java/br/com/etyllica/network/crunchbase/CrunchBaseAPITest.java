@@ -1,10 +1,8 @@
 package br.com.etyllica.network.crunchbase;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.junit.Assert;
@@ -35,7 +33,7 @@ public class CrunchBaseAPITest {
 		Assert.assertEquals(6, organizationData.getRelationships().getInvestors().size());
 	}
 
-	protected String readFixture(String filename) throws IOException {
+	public static String readFixture(String filename) throws IOException {
 		String contents = new String(Files.readAllBytes(Paths.get(FIXTURE_PATH+filename)), StandardCharsets.UTF_8);
 		return contents;
 	}

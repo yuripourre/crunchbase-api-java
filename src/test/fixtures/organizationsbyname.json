@@ -1,0 +1,45 @@
+{
+    "metadata": {
+        "version": 3,
+        "www_path_prefix": "https://www.crunchbase.com",
+        "api_path_prefix": "https://api.crunchbase.com",
+        "image_path_prefix": "http://public.crunchbase.com/t_api_images/"
+    },
+    "data": {
+        "paging": {
+            "total_items": 1,
+            "number_of_pages": 1,
+            "current_page": 1,
+            "sort_order": "created_at DESC",
+            "items_per_page": 100,
+            "next_page_url": "https://api.crunchbase.com/v/3/organizations?name=Scred&page=2",
+            "prev_page_url": null
+        },
+        "items": [
+            {
+                "type": "OrganizationSummary",
+                "uuid": "a7c16fdd5697b0e113261bf24d0df2cd",
+                "properties": {
+                    "permalink": "scred",
+                    "api_path": "organizations/scred",
+                    "web_path": "organization/scred",
+                    "name": "Scred",
+                    "primary_role": "company",
+                    "short_description": "Group Accounting and Money Mgmt.",
+                    "profile_image_url": "http://public.crunchbase.com/t_api_images/v1397183954/405b037331cfba4215498b38686e7915.png",
+                    "domain": "scred.com",
+                    "homepage_url": "http://www.scred.com",
+                    "facebook_url": "http://www.facebook.com/pages/scred/20334027656",
+                    "twitter_url": "http://twitter.com/Screditor",
+                    "linkedin_url": null,
+                    "blog_url": "http://www.screditcrunch.com/",
+                    "city_name": "Kauniainen",
+                    "region_name": null,
+                    "country_code": "FIN",
+                    "created_at": 1203885705,
+                    "updated_at": 1397988053
+                }
+            }
+        ]
+    }
+}
